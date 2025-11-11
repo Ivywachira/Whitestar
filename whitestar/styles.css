@@ -1,0 +1,337 @@
+
+@media (max-width: 576px){
+
+    .offcanvas-end{
+        width: ;
+    }
+    .box{
+    background-color: transparent;
+    height: 650px ;
+    max-height: 650px;
+    }
+     .boxword3{
+        max-height: 300px !important;
+    }
+    .boxword4{
+      max-height: 300px !important;  
+    }
+
+    .div-acc{
+    width: 100%;
+    height: 170% !important ;
+    } 
+   .flip-card{
+      margin-top: 50px !important ;
+      
+    }
+    .words{
+        position: absolute !important;
+        bottom: 10 !important;
+        line-height: 0.4 !important;
+        width: 100% !important;
+        max-width: 100% !important ;
+        
+    }
+    .img-cover{
+      
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+}
+
+
+@media (min-width: 577px) and (max-width: 768px ) {
+    .offcanvas-end{
+        width: 200px !important ;
+    }
+    .box{
+    background-color: transparent;
+    height: 400px ;
+    max-height: 400px;
+    border-radius: 20px !important;
+    }
+    .boxword3{
+        padding-left: 70px !important;
+    }
+
+    .div-acc{
+    width: 100%;
+    height: 200% !important ;
+    } 
+   .flip-card{
+      margin-top: 50px !important ;
+      
+    }
+} 
+
+@media (min-width: 769px) and (max-width: 992px ) {
+    .offcanvas-end{
+        width: 300px !important ;
+    }
+    .box{
+    background-color: transparent;
+    height: 400px ;
+    max-height: 400px;
+    }
+    .boxword3{
+        padding-left: 70px !important;
+    }
+  .flip-card{
+      margin-top: 50px !important ;
+      
+    }
+    .responsive-ratio{
+    overflow: hidden !important ;
+     width: 100%;
+    height: 100%;
+
+}
+    .words{
+     width: 100% !important;
+    max-width: 100% !important;
+     margin-left: 50px;
+    }
+} 
+
+
+@media (min-width: 993px) and (max-width: 1200px ) {
+    
+    .div-acc{
+        height: 60% !important;
+    }
+    .flip-card{
+      margin-top: 250px ;
+      min-width: 500px !important ;
+    }
+    .responsive-ratio{
+    overflow: hidden !important ;
+     width: 100%;
+    height: 100%;
+    }
+} 
+
+@media (min-width: 1201px){
+    .offcanvas-end {
+        width: ;
+    }
+} 
+.div1{
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 16/9 ;
+
+}
+.cont{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.img-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center ;
+  display: block;
+}
+.words{
+    background-color: blue !important;
+    position: absolute;
+    bottom: 0!important; 
+    
+    height: 300px;
+   
+}
+.wording{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 0;
+    /*font-size: clamp(1rem, 2vw, 2rem); */
+    background-size: cover;
+}
+body{
+        overflow: scroll !important;
+        padding-top: 120px;
+    }
+body::-webkit-scrollbar {
+      /*  display: none;             Chrome, Safari, Edge */
+    }
+.sec5 {
+      padding-left: 0 !important;
+    padding-right: 0 !important;
+   /* max-width: 98% !important;  overrides Bootstrap max width */
+    }
+.w-90{
+    width: 100% !important;
+}
+.h-100{
+    height: 100% !important;
+}
+.h-sm-300{
+    height: 400px !important;
+}
+.divmidd{
+    width: 1000px !important ;
+ /*   border: solid #0d6efd ; */
+    border-radius: 10px;
+    height: 60px !important ;
+    background-color: #ffffff !important ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.drop{
+    background-color: #0d6efd;
+}
+.blur-bg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.blur-bg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background: url('images/nanny4.jpeg') no-repeat  top/cover ; 
+    filter: blur(0px) !important ;
+    z-index: -1;
+}
+
+
+.bi-size{
+    font-size: 40px !important;
+    color: #0d6efd !important;  
+}
+.ins-size{
+   font-size: 40px !important; 
+   color: #E1306c;
+}
+.arrow-size{
+   font-size: 25px !important;
+   color: #ffae00;    
+}
+li{
+    list-style-type: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+.logo {
+max-height: 100px;
+height: auto;
+width: auto;
+object-fit: contain;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5) !important ;
+    z-index: 1000 !important ;
+    transition: all 0.3s ease !important ;
+}
+.btn1{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid #0d6efd;
+    background-color: #0d6efd;
+    border-radius: 10px;
+    padding: 8px;
+  
+}
+.btn2{
+    padding-left: 10px;
+     border: solid #fd0d0d;
+    background-color: #fd0d0d;
+    border-radius: 10px;
+    padding: 8px;
+  
+}
+.material-symbols-outlined{
+    color: white !important;
+    margin-right: 5px;
+    font-size: 18px !important;
+ /*   vertical-align: middle; */
+}
+.div-w-icon  {
+    font-size: 14px !important ;
+    display: inline-flex;
+    align-items: center;
+}
+.fa-brands{
+    color: white;
+    font-size: 18px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.underline{
+    text-decoration-line: underline;
+    text-decoration-color: #0d6efd;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+    *{
+      box-sizing: border-box;
+    }
+
+ /*   body {
+      background-color: #f8f9fa;
+      font-family: "Poppins", sans-serif;
+    } */
+
+.div-acc{
+    width: 100%;
+    height: 100%;
+}  
+
+
+ 
+.flip-card {
+      perspective: 1000px;
+      height: 100%;
+      min-height: 300px ;
+      margin-top: 50px;
+}
+
+.flip-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      cursor: pointer;
+}
+
+.flip-card.flipped .flip-inner {
+      transform: rotateY(180deg);
+}
+
+.flip-front, .flip-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 0.75rem;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.flip-front {
+      background-color: #fff;
+}
+
+.flip-back {
+      background-color: #f8f9fa;
+      transform: rotateY(180deg);
+}
+.object-fit-cover {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
