@@ -20,7 +20,7 @@
 
   .div-acc{
     width: 100%;
-    height: 260% !important ;
+    height: 200% !important ;
    
     } 
    .flip-card{
@@ -63,6 +63,11 @@
      .flip-back .flip-front {
       height: 100% !important ;
      }
+     .sec5 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      height: 900px !important ;
+     } 
 }
 
 
@@ -290,8 +295,6 @@
     .btn1 {
       padding: 8px;
     width: 120px;
-  
-    
       border: 2px solid #0d6efd;
     background-color: #0d6efd;
       border-radius: 0.5rem;
@@ -332,12 +335,6 @@
     width: 120px;
   
 } */
-
-    
-    .btn1:hover, .btn2:hover {
-      background: transparent;
-      color: #000 !important;
-    }
     
     .right {
       display: flex;
