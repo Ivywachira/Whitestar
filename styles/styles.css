@@ -175,7 +175,7 @@
 
     }
    .div1 {
-        height: 70vh;
+        height: 100% !important ;
         min-height: 500px;
       }
       
@@ -226,7 +226,7 @@
       height: 100% !important ;
     }
     .cont{
-        height: 60% !important ;
+        height: 85% !important ;
       }
     .responsive-text{
         margin-left: 50px !important ;
